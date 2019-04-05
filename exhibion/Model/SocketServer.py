@@ -74,4 +74,4 @@ class Server:
 
     def stop_monitor3(self):
             for i in self.RPI:
-                self.RPI[i][1].send(b"stop_monitor3")
+                self.RPI[i][1].send(b"stop_monitor3") 
